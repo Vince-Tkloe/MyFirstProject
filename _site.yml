@@ -1,0 +1,16 @@
+name: "Tamakloe Website"
+output_dir: docs
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "HomeWorks"
+      href: HomeWorks.html
+      
+output:
+  html_document:
+    theme: cerulean
+    highlight: tango   

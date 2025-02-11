@@ -1,32 +1,24 @@
 ---
-title: "Initial webpage set up"
-author: "Vincent Tamakloe"
-date: "2025-02-07"
+name: "Tamakloe Website"
+output_dir: docs
+navbar:
+  title: "Vince Tamakloe"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "HomeWorks"
+      href: HomeWorks.html
+      
 output:
   html_document:
-    df_print: paged
+    theme: cerulean
+    highlight: tango 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+**Welcome to My Website!**
 
-## R Markdown
+Hi there! I’m Vincent Tamakloe, a PhD student in Plant Sciences with a concentration in Applied Chemical Ecology at the University of Vermont. My research focuses on sustainable pest management, particularly exploring pheromone mating disruption in the swede midge (*Contarinia nasturtii*), and I'm passionate about agroecology, plant-insect interactions, chemical ecology, insecticides and pest management.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+This site is still under construction, but I’m excited to share my research journey, insights, and updates as I go. So sit back, relax, and enjoy the ride! Stay tuned for new content and feel free to check back regularly as the site evolves.
